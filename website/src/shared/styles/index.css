@@ -1,6 +1,26 @@
 @import 'tailwindcss';
 @plugin "daisyui" {
   themes:
-    emerald --default,
-    dim;
+    corporate --default,
+    business;
+}
+
+/* Bemlo brand color overrides */
+:root,
+[data-theme="corporate"] {
+  --p: 215 84% 39%; /* #0E55B8 in HSL oklch approximation */
+  --pc: 0 0% 100%;
+  --s: 224 76% 40%;
+  --sc: 0 0% 100%;
+  --a: 215 84% 39%;
+  --ac: 0 0% 100%;
+}
+
+[data-theme="business"] {
+  --p: 217 91% 60%;
+  --pc: 0 0% 100%;
+  --s: 217 91% 65%;
+  --sc: 0 0% 100%;
+  --a: 217 91% 60%;
+  --ac: 0 0% 100%;
 }

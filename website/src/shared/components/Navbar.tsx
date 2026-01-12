@@ -39,8 +39,8 @@ export default function Navbar() {
               href="/"
             >
               <img
-                src="/yopass.svg"
-                alt="Yopass logo"
+                src="/bemlo-icon.png"
+                alt="Bemlo Share logo"
                 className="h-8 w-8 mr-3"
               />
               {t('header.appName')}

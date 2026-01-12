@@ -1,7 +1,7 @@
 (function () {
   try {
-    var LIGHT = 'emerald';
-    var DARK = 'dim';
+    var LIGHT = 'corporate';
+    var DARK = 'business';
     var storedMode = localStorage.getItem('themeMode'); // 'light' | 'dark'
     var prefersDark =
       window.matchMedia &&
